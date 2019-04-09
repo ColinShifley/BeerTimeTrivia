@@ -47,7 +47,7 @@ $(document).ready(function () {
 		reset: 0,
 
 		countdown: function () {
-			//game.counter--;
+			game.counter--;
 			$('#counter').html(game.counter);
 
 			if (game.counter == 0) {
